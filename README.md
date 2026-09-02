@@ -1,3 +1,4 @@
+![CI](https://github.com/insectwood/settlement-system/actions/workflows/ci.yml/badge.svg)
 # 설계 문서 (Phase 0)
 
 주문 · 결제 · 정산 이벤트 드리븐 MSA 포트폴리오 프로젝트의 설계 문서 모음.
