@@ -13,3 +13,13 @@ spotless {
         endWithNewline()
     }
 }
+
+subprojects {
+    tasks.withType<Test>().configureEach {
+        useJUnitPlatform()
+        testLogging {
+            events("passed", "skipped", "failed")
+            showStandardStreams = false
+        }
+    }
+}
